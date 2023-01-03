@@ -47,7 +47,7 @@ runGame = True
 while runGame: # while loop to decide whether to re-run the game
   rungame()
   repeat = str(input("Would you like to play again? Yes or No! "))
-  if repeat.lower() == "yes":
+  if repeat.lower() == "yes": # if-else chain to change boolean variable if necessary
     runGame = True
   elif repeat.lower() == "no":
     print("Thanks for playing!")
