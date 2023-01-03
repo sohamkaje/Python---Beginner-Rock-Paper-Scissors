@@ -10,7 +10,7 @@ def rungame():
     generatednum = "paper"
   elif generatednum == 3:
     generatednum = "scissors"
-  choice = str(input("Rock, Paper, or Scissors?  # asks player for their choice
+  choice = str(input("Rock, Paper, or Scissors? ")) # asks player for their choice
   choiceslist = ["rock", "paper", "scissors"]
   while choice.lower() not in choiceslist: # makes sure the player's choice is a valid option
     print("That's not an option!")
