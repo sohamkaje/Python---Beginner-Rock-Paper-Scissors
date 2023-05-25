@@ -1,5 +1,3 @@
-# This program is my first project in python outside of school
-
 import random
 
 # This function generates the AI's choice, asks the player for their choice,
